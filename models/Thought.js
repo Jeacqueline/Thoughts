@@ -11,7 +11,7 @@ const formatDate = (timestamp)=>{
         timeZone:'UTC',
     });
 };
-
+// the schema thoughts and reactions
 const reactionSchema = new mongoose.Schema(
     {
         reactionId: {
