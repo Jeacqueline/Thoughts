@@ -60,4 +60,5 @@ To install and run the application in your local environment, follow these steps
 [GitHub/Jeacqueline Thoughts](https://github.com/Jeacqueline/Thoughts)
 
 [Video/ Jeacqueline/ Thoughts](https://drive.google.com/file/d/13xgOZj3VQSjbUt0iG92PbNPoNkrlqbYr/view)
+##### (Approximate length of video: 4 minutes. Note: The video may slightly exceed this indicated time 🫣).
 
