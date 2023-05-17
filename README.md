@@ -30,7 +30,7 @@ The application utilizes the following technologies:
 * Mongoose: Object modeling library for Node.js that provides a simple interface to interact with MongoDB.
 ```
 
-## Instalación
+## Installation
 To install and run the application in your local environment, follow these steps:
 
 - Clone the GitHub repository to your local machine.
