@@ -12,7 +12,7 @@ app.use(routes);
 
 db.once('open', () => {
   app.listen(PORT, () => {
-    console.log(`On port ${PORT}!`);
+    console.log(`Listening at port ${PORT}!`);
   });
 });
 
