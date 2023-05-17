@@ -1,6 +1,11 @@
 # Thoughts
  This is an API for a social networking web application where users can share their thoughts, react to their friends' thoughts, and create a friends list. The application is built using technologies like Express.js, MongoDB, and Mongoose.
 
+ The following resources were used as a guide for the realization of this application: 
+- TDM-VIRT-FSF-PT-10-2022-U-LOLC/18-NoSQL/01-Activities/24,25,22
+- Office hours and Tuttor sessions 
+- https://www.npmjs.com/package/mongoose
+- https://mongoosejs.com/
 
 ## Usage
 With this social networking API, users can perform the following actions:
