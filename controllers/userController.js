@@ -103,7 +103,7 @@ module.exports = {
       );
   
       if (!user) {
-        return res.status(404).json({ message: 'No user found with that ID :(' });
+        return res.status(404).json({ message: 'No user found with that ID, sorry :(' });
       }
   
       res.status(200).json(user);

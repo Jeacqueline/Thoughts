@@ -15,7 +15,7 @@ module.exports = {
     try {
       const thought = await Thought.findOne({ _id: req.params.thoughtId })
         if(!thought){
-          return res.status(404).json({message: 'No though with that ID'});
+          return res.status(404).json({message: 'No thought with that ID'});
         }
         res.json(thought);
       } catch (err) {
@@ -105,7 +105,7 @@ module.exports = {
       res.status(500).json(err)
     }
   },
-  // Del Reaction
+  // Delete Reaction
   async  deleteReaction(req, res) {
     try {
 
@@ -114,6 +114,7 @@ module.exports = {
         { $pull: { reactions: { reactionId: req.params.reactionId } } },
         { new: true}
       );
+
       if (!thought) {
         return res.status(404).json ({ message: 'No thought with that ID'});
       }
